@@ -154,6 +154,10 @@ open class EditingStack {
         originalPreviewImage = result
     }
     
+    public func setCropImage(adjustmentImage: CIImage) {
+        originalPreviewImage = adjustmentImage
+    }
+    
         
     public func makeRenderer() -> ImageRenderer {
         let renderer = ImageRenderer(source: source)
