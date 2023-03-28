@@ -188,7 +188,7 @@ open class EditingStack {
         
     }
     
-    public func updatePreviewImage() {
+    private func updatePreviewImage() {
         
         guard let sourceImage = originalPreviewImage else {
             previewImage = nil
